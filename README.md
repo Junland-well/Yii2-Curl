@@ -83,10 +83,10 @@ $response = $curl->setPostParams([
 // POST RAW JSON
 $curl = new curl\Curl();
 $response = $curl->setRawPostData(
-     json_encode[
+     json_encode([
         'key' => 'value',
         'secondKey' => 'secondValue'
-     ])
+     ]))
      ->post('http://example.com/');
 ```
 
